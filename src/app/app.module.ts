@@ -6,6 +6,7 @@ import { MyApp } from './app.component';
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ReposPage } from '../pages/repos/repos';
+import { RepoDetailsPage } from '../pages/repo-details/repo-details';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -19,7 +20,8 @@ import { HttpModule } from '@angular/http';
     MyApp,
     HelloIonicPage,
     ItemDetailsPage,
-    ReposPage
+    ReposPage,
+    RepoDetailsPage
   ],
   imports: [
     BrowserModule,
@@ -31,7 +33,8 @@ import { HttpModule } from '@angular/http';
     MyApp,
     HelloIonicPage,
     ItemDetailsPage,
-    ReposPage
+    ReposPage,
+    RepoDetailsPage
   ],
   providers: [
     StatusBar,
